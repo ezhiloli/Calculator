@@ -1,0 +1,88 @@
+.calc-home {
+  height: auto;
+  width: 40vw;
+  background-color: rgb(91, 234, 234);
+  margin: auto;
+  margin-top: 15vh;
+  margin-bottom: -5vh;
+}
+.heading {
+  background-color: black;
+  width: 100%;
+  position: relative;
+  top: 2vh;
+}
+.heading h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+.calculator {
+  height: auto;
+  width: 30vw;
+  background-color: rgba(227, 135, 135, 0.932);
+  margin-left: 12%;
+}
+#display {
+  height: 13vh;
+  background-color: white;
+}
+#dis {
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+#dis::-webkit-scrollbar {
+  display: none;
+}
+#display span {
+  color: black;
+  font-size: 2rem;
+  display: block;
+  text-align: end;
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-bottom: 2vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.top-row button {
+  width: 7.5vw;
+  height: 5vw;
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+}
+.top-row button span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 15vh;
+  margin-bottom: 5vh;
+}
+.top-row button:focus {
+  outline: none;
+}
+.two-column button {
+  width: 7.5vw;
+  height: 5vw;
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+}
+.two-column button span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.row .two-column {
+  flex-grow: 2;
+  border: 1px solid white;
+}
+.top-row button {
+  border: 1px solid white;
+}
